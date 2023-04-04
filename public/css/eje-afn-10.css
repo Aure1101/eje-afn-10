@@ -1,0 +1,71 @@
+/*Paleta de colores https://colorhunt.co/palette/a9907ef3debaabc4aa675d50*/
+
+body{
+    background-color: #F3DEBA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+#calculadora{
+    border-radius: 10px;
+    border: 1px solid #675D50;
+    width: 50%;
+    margin: auto;
+    background-color: #ABC4AA;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#calculadora > h1, h3{
+    color: #675D50;
+    text-align: center;
+}
+
+#inputs{
+    display: flex;
+    gap: 10%;
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input{
+    width: 100%;
+    font-size: x-large;
+    border: 1px solid #675D50;
+    border-radius: 5px;
+}
+
+#inputs > input{
+    text-align: center;
+    color: #675D50;
+    background-color: #f7ecda;
+}
+
+#operators{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    row-gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#operators > input{
+    height: 50px;
+    background-color: #A9907E;
+    color: #F3DEBA;
+
+}
+
+#operators > input:hover{
+    background-color: #F3DEBA;
+    color: #A9907E;
+    cursor: pointer;
+}

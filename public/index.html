@@ -15,12 +15,12 @@
                 <input type="text" placeholder="0" id="n1">
                 <input type="text" placeholder="0" id="n2">
             </div>
-            <h3>Resultado: 0.0</h3>
+            <h3>Resultado: <span id="res">0.0</span> </h3>
             <div id="operators">
-                <input type="button" value="+" id="suma">
-                <input type="button" value="-" id="resta">
-                <input type="button" value="*" id="multi">
-                <input type="button" value="/" id="divi">
+                <input type="button" value="+" id="suma" onclick="sumaNumeros();">
+                <input type="button" value="-" id="resta" onclick="restaNumeros();">
+                <input type="button" value="*" id="multi" onclick="multiplicaNumeros();">
+                <input type="button" value="/" id="divi" onclick="divideNumeros();">
             </div>
         </section>
     </main>
